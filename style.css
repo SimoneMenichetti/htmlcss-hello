@@ -1,9 +1,36 @@
 body{
+    margin: 0;
+    box-sizing: border-box;
     background-color: aquamarine;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-/* text  caracter */
-h1{
-    font-size: 100px;
-    text-align: center;
+/* body caracter */
+#contenitor{
+    margin: auto;
+    width: 1000px;
+    border: 0: solid black;
+    height: 100vh;
 }
+.background-immage{
+    width:1000px;
+    height:100%;
+    position: relative;
+    display: inline-block;
+  }
+  #specialimmage{
+    background-image: url('world.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .text{
+    font-size: 30px;
+    font-style: normal;
+    position: absolute;
+    border-radius: 0;
+    color: lightgrey;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding:6px;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+  }
